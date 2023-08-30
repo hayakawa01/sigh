@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/aims',
       name: 'aim ',
       component: () => import('../components/aim.vue')
+    },
+    {
+      path: '/chat',
+      name: 'chat',
+      component: () => import('../components/Chat.vue')
     }
   ]
 })
