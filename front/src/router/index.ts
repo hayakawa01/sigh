@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/reactive',
       name: 'reactive ',
       component: () => import('../components/reactive.vue')
+    },
+    {
+      path: '/binding',
+      name: 'binding ',
+      component: () => import('../components/binding.vue')
     }
   ]
 })
