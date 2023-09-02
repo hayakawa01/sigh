@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/aims',
       name: 'aim ',
       component: () => import('../components/aim.vue')
+    },
+    {
+      path: '/reactive',
+      name: 'reactive ',
+      component: () => import('../components/reactive.vue')
     }
   ]
 })
