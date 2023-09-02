@@ -31,6 +31,11 @@ const router = createRouter({
       path: '/binding',
       name: 'binding ',
       component: () => import('../components/binding.vue')
+    },
+    {
+      path: '/ifShowFor',
+      name: 'ifShowFor ',
+      component: () => import('../components/ifShowFor.vue')
     }
   ]
 })
